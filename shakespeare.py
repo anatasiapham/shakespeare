@@ -4,8 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-# Importing the StringIO module.
-from io import StringIO 
 import glob, nltk, os, re
 from nltk.corpus import stopwords
 nltk.download('stopwords')
